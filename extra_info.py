@@ -36,7 +36,7 @@ for table in tables:
         row_list.append(column_list)
     table_list.append(row_list)
 
-
+print("Updated Here")
 
 # for row in table.find_all('tr'):
 #     row_data = []
