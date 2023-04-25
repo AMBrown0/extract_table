@@ -38,6 +38,7 @@ for table in tables:
         row_list.append(column_list)
     table_list.append(row_list)
 
+print("Updated Here")
 
 table_df=pd.DataFrame(tables[0])
 # for row in table.find_all('tr'):
