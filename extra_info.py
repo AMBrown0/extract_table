@@ -1,6 +1,6 @@
 import requests
 from bs4 import BeautifulSoup
-
+import pandas as pd
 url = 'https://www.instituteforapprenticeships.org/apprenticeship-standards/digital-support-technician-v1-1?view=epa'
 response = requests.get(url)
 import re
@@ -29,15 +29,17 @@ for table in tables:
         # Do something with each row, such as extracting its cells
         cells = row.find_all('td')
         for cell in cells:
-            #print(cell.text)
+            
             cleansed_text=cell.text
             cleansed_text=new_string = re.sub('\n', '', cleansed_text)
+            print(f"text raw={cell.text} text cleansed={cleansed_text}")
+            
             column_list.append(cleansed_text)
         row_list.append(column_list)
     table_list.append(row_list)
 
 
-
+table_df=pd.DataFrame(tables[0])
 # for row in table.find_all('tr'):
 #     row_data = []
 #     for cell in row.find_all('td'):

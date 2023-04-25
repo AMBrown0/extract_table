@@ -1,0 +1,38 @@
+,KSBs,Pass,Distinction
+0,,The apprentice must achieve all the,The apprentice must meet the pass
+1,,following pass descriptors.,criteria plus all these distinction
+2,,,descriptors
+3,K2 K3 K6 *,Data Gathering,
+4,K7 K8 K9,,
+5,,"Accesses, formats, collates, blends and",Critically analyses the reasons why
+6,,extracts data from multiple identified,data is gathered and the importance of
+7,S1 S2 S3,sources in line with current industry,using multiple sources
+8,S4 S5 S6,standards,
+9,S7 S8 S9,,
+10,S16 S18,Locates and migrates data from already,
+11,,identified sources,
+12,,,
+13,B2 B3 B4,Manipulates and links different data sets,
+14,,using tools and techniques to identify,
+15,,trends and patterns,
+16,,Presents data in a format appropriate to,
+17,*Note that,the task,
+18,K6 is split,,
+19,between,Summarises and explains the results of,
+20,both,the gathered data,
+21,assessment,Identifies trends and patterns in data,
+22,methods.,,
+23,See,(K2 S1 K3 S2 S3 K6 S4 S5 S6),
+24,mapping,,
+25,,Data Analysis and Validation,
+26,section,,
+27,,Applies algorithms and basic statistical,Justifies why we undertake
+28,,methods to identify trends in data to audit,crosschecking of data
+29,,results,
+30,,,Evaluates why we need to identify
+31,,Cross checks and filters data to identify,trends and faults in data
+32,,faults,
+33,,"Cleans, tests and assesses the",
+34,,confidence and integrity of the data,
+35,,Identifies opportunities to use automation,
+36,,(K7 K8 K9 S7 S8 S9 S16),

@@ -1,0 +1,11 @@
+,Assessment method 1,Assessment method 2,Overall grading
+0,Scenario Demonstrations,Professional,
+1,with Questioning,Discussion,
+2,,underpinned by,
+3,,portfolio,
+4,Fail,Any grade,Fail
+5,Any grade,Fail,Fail
+6,Pass,Pass,Pass
+7,Pass,Distinction,Merit
+8,Distinction,Pass,Merit
+9,Distinction,Distinction,Distinction
